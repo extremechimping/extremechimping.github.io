@@ -8,6 +8,11 @@ body {
   min-height: 100%;
 }
 
+@-o-viewport,
+@-ms-viewport{
+  width: device-width;
+}
+
 .content {
   flex: 1;
 }
@@ -50,7 +55,7 @@ body {
 	padding: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.left {
 		width: 100%;
 	}
